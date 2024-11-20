@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    background-color: rgba(214, 180, 180, 0.733) ;
+    position: relative;
+    background-image: url(fondoFinal.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.divLogo {
+    text-align: center;
+}
+.logo {
+    width: 480px;  /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgba(31, 12, 7, 0.74);
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: rgb(31, 12, 7);
+}
+.p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* Table styles */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border:1px solid rgba(31, 12, 7, 0.74);
+    background-color: rgb(214, 180, 180);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border:1px solid rgba(31, 12, 7, 0.74);
+}
+.logoig {
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+.letrasLogo {
+    width: auto;
+    color:  rgb(34, 10, 4);
+    font-size: 200%;
+    display: flex;
+    align-items:center;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #777;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+    .p {
+        font-size: 22px;
+    }
+
+    table th, table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 300px;
+    }
+    .logoig {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    .p {
+        font-size: 18px;
+    }
+
+    table th, table td {
+        font-size: 12px;
+    }
+}
